@@ -2,15 +2,15 @@ import asyncio
 from contextlib import suppress
 from typing import List, Optional, Tuple, TypeVar
 
-from discord import (
+from disnake import (
     Embed,
     Message,
     User,
     Reaction,
     TextChannel
 )
-from discord.ext import commands
-from discord.errors import Forbidden
+from disnake.ext import commands
+from disnake.errors import Forbidden
 from more_itertools import chunked
 
 
